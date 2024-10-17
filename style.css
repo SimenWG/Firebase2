@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.light-mode .container {
+    background-color: #e3f2fd;
+}
+
+.light-mode button {
+    background-color: #2196f3;
+    color: white;
+}
+
+.light-mode button:hover {
+    background-color: #1976d2;
+}
+
+.dark-mode {
+    background-color: #1b1b1b;
+    color: white;
+}
+
+.dark-mode .container {
+    background-color: #512da8;
+}
+
+.dark-mode button {
+    background-color: #673ab7;
+    color: white;
+}
+
+.dark-mode button:hover {
+    background-color: #5e35b1;
+}
+
+input {
+    padding: 12px;  
+    width: calc(100% - 24px); 
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;  
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode input {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode input {
+    background-color: #424242;
+    color: white;
+}
